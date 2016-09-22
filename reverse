@@ -7,13 +7,6 @@ class reverse
   String s=sc.nextLine();
   StringBuffer sb=new StringBuffer(s);
   sb.reverse(s);
-  if(s==sb)
-  {
-   System.out.println("equal");
-   }
-   else
-   {
-   System.out.println("not equal");
+  System.out.println(sb);
   }
-}
-}
+  }
